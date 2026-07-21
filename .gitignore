@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.streamlit/secrets.toml
+
+data/*.csv
+artifacts/*.joblib
+
+!data/.gitkeep
+!artifacts/.gitkeep
+
+.DS_Store
