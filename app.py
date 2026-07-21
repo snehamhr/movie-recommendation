@@ -278,7 +278,7 @@ def render_sidebar_results(
 
         if not selected_title:
             st.info(
-                "Select any movie from the catalog to see its"
+                "Select any movie from the catalog to see its "
                 "top five recommendations here."
             )
             return
